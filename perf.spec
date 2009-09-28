@@ -1,8 +1,10 @@
+# for sure, one of the ugliest packages ever made:
+
 # q: why not just depend on kernel-source-latest?
 # a: we would never know exactly what version of perf we are using
 # (--version does not work so far)
 
-%define kver 2.6.31-2mnb
+%define kver 2.6.31.1-1mnb
 
 %define pver %(echo %kver | tr - .)
 
