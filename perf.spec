@@ -20,6 +20,7 @@ Buildrequires: libelfutils-devel
 Buildrequires: kernel-source-%kver
 Buildrequires: asciidoc
 Buildrequires: xmlto
+Buildrequires: docbook-dtd45-xml
 BuildRoot: %_tmppath/%name-%version-root
 
 %description
