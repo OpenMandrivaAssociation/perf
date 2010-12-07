@@ -10,7 +10,7 @@
 
 Name: perf
 Version: %pver
-Release: %mkrel 1
+Release: %mkrel 2
 License: GPLv2
 Summary: Performance monitor for the Linux kernel
 URL: http://www.kernel.org/
