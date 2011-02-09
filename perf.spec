@@ -4,7 +4,7 @@
 # a: we would never know exactly what version of perf we are using
 # (--version does not work so far)
 
-%define kver 2.6.33-1mnb
+%define kver 2.6.37-1mnb
 
 %define pver %(echo %kver | tr - .)
 
@@ -21,6 +21,9 @@ Buildrequires: kernel-source-%kver
 Buildrequires: asciidoc
 Buildrequires: xmlto
 Buildrequires: docbook-dtd45-xml
+Buildrequires: newt-devel
+Buildrequires: binutils-devel
+Buildrequires: zlib-devel
 BuildRoot: %_tmppath/%name-%version-root
 
 %description
