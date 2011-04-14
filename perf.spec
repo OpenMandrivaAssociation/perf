@@ -15,6 +15,7 @@ License: GPLv2
 Summary: Performance monitor for the Linux kernel
 URL: http://www.kernel.org/
 Group: Monitoring
+Patch0: perf-gcc46-no-unused-but-set-variable.patch
 Buildrequires: gcc
 Buildrequires: libelfutils-devel
 Buildrequires: kernel-source-%kver
@@ -44,6 +45,7 @@ mkdir %name-%version-%release
 cd %name-%version-%release
 # TODO: patch perf to use paths at /usr/src/linux directly?
 cp -af %_usrsrc/linux/ .
+%apply_patches
 
 %build
 cd %name-%version-%release
