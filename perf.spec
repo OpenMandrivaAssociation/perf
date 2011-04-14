@@ -4,7 +4,7 @@
 # a: we would never know exactly what version of perf we are using
 # (--version does not work so far)
 
-%define kver 2.6.37-1mnb
+%define kver 2.6.38.2-1mnb
 
 %define pver %(echo %kver | tr - .)
 
