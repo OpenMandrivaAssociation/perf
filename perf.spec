@@ -24,7 +24,7 @@
 
 Name:			%{name}
 Summary:		The performance analysis tools for Linux
-URL:			http://www.kernel.org
+URL:			https://www.kernel.org
 Group:			System/Kernel and hardware
 License:		GPLv2
 Version:		%{version}
